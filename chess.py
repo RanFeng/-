@@ -7,7 +7,7 @@ import sys
 import json
 import Tkinter
 
-host = '121.42.57.33'
+host = '127.0.0.1'
 textport = 51400
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
