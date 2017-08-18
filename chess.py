@@ -618,7 +618,7 @@ def recv_invite():
     if(Is_Run == 0):
         s.sendall("Me"+str(My_ID))
         invite_info = s.recv(4096)
-        if('Invited' in invite_info):       #Invited1    aijialei 
+        if('Invited' in invite_info):       #Invited1    RanFeng 
             select_or_invite(invite_info[7:])
             link.configure(text="Accept Invitation")
             link.unbind("<ButtonRelease-1>")
@@ -635,7 +635,7 @@ def recv_invite():
             Is_Run = 1
 
 def select_player(event=None):
-    player_info = member.get(member.curselection()).strip() #1    aijialei
+    player_info = member.get(member.curselection()).strip() #1    RanFeng
     select_or_invite(player_info)
     link.configure(text="Invite He")
     link.unbind("<ButtonRelease-1>")

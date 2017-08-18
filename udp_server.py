@@ -20,7 +20,7 @@ s.bind((host, port))
 # Step4: 监听该端口上的连接
 
 conn = {}       #1:['127.0.0.1',56784]
-nick = {}       #1:"aijialei"
+nick = {}       #1:"RanFeng"
 
 
 invite = {}     #4:1  4-->1
